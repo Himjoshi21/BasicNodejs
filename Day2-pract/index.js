@@ -1,3 +1,4 @@
+process.env.UV_THREADPOOL_SIZE=4; // no of threadpool can be increase fthrough cli
 const os= require("os")
 console.log(os.cpus().length)
 

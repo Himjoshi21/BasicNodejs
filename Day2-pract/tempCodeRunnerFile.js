@@ -1,3 +1,4 @@
+process.env.UV_THREADPOOL_SIZE=4;
 const os= require("os")
 console.log(os.cpus().length)
 
