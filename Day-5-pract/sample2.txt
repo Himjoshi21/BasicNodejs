@@ -1,0 +1,78 @@
+What is Node.js? (In simple words)
+
+Node.js lets you run JavaScript outside the browser.
+
+👉 Normally:
+
+JavaScript runs in Chrome / browser
+
+Used for buttons, forms, UI stuff
+
+👉 With Node.js:
+
+JavaScript runs on your computer/server
+
+Used for backend (APIs, servers, databases)
+
+📌 Example:
+
+Browser JS → “User clicked button”
+
+Node.js → “Save user data in database”
+
+🤔 Why do we use Node.js?
+
+Because it is:
+
+⚡ Fast (built on Chrome’s V8 engine)
+
+🔄 Non-blocking (can handle many users at once)
+
+📦 Same language for frontend & backend (JavaScript)
+
+🌍 Used by big companies (Netflix, Uber, PayPal)
+
+🧠 How Node.js Works (Easy logic)
+
+Node.js works on event-based system.
+
+Think like this 👇
+🧍 User → Request → 🖥️ Server → Response
+
+Node.js:
+
+Does not wait for one task to finish
+
+Moves to next task
+
+Comes back when result is ready
+
+This is called Non-blocking / Asynchronous
+
+📂 Basic Parts of Node.js
+1️⃣ Node Runtime
+
+Runs JavaScript code on server
+
+2️⃣ NPM (Node Package Manager)
+
+Used to install libraries
+
+Example:
+
+npm install express
+
+3️⃣ Modules
+
+Small pieces of code you reuse
+
+Example:
+
+const fs = require("fs"); // file system module
+
+📁 Important Core Modules (Simple)
+Module	What it does
+fs	Work with files
+http	Create server
+path	File paths
+os	System info
